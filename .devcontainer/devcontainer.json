@@ -3,7 +3,7 @@
   "dockerComposeFile": [
     "../docker/docker-compose-gui.yml" // Alternatives: "../docker/docker-compose-gui.yml", "../docker/docker-compose-gui-nvidia.yml"
   ],
-  "service": "realsense_ros2",
+  "service": "px4_realsense_ros2",
   "workspaceFolder": "/ros2_ws",
   "shutdownAction": "stopCompose",
   "extensions": [
